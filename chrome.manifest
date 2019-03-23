@@ -1,0 +1,10 @@
+content   gs                jar:chrome/g-sensing.jar!/content/
+skin      gs  classic/1.0   jar:chrome/g-sensing.jar!/skin/
+locale    gs  en-US         jar:chrome/g-sensing.jar!/locale/en-US/
+resource  gplaces	    jar:chrome/g-sensing.jar!/content/places/ 	    	
+resource  ckandata	    jar:chrome/g-sensing.jar!/../../firefox/
+
+overlay chrome://browser/content/browser.xul  chrome://gs/content/browserOverlay.xul
+
+
+
